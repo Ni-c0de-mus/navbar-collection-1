@@ -9,7 +9,7 @@
 }
 
 html {
-    background: var(--raisin-black);
+ background: var(--raisin-black);
 }
 
 :root {
@@ -53,81 +53,75 @@ html {
  box-sizing: border-box;
 }
 
-.main-nav{
-    height: 100vh;
-    width: 100%;
-    background: var(--old-gold);
-    display: flex;
-    position: fixed;
-    z-index: -1;
-    /* top: -100vh; */
-    opacity: 0;
-    transition: opacity .65s;
+.main-nav {
+ height: 100vh;
+ width: 100%;
+ background: var(--old-gold);
+ display: flex;
+ position: fixed;
+ z-index: -1;
+ /* top: -100vh; */
+ opacity: 0;
+ transition: opacity .65s;
 }
 
 .nav-list {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin: auto;
-    font-family: var(--rajdhani) sans-serif;
+ list-style: none;
+ padding: 0;
+ text-align: center;
+ margin: auto;
+ font-family: var(--rajdhani) sans-serif;
 }
 
 .nav-link {
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--raisin-black);
-    letter-spacing: .1rem;
+ font-size: 2rem;
+ font-weight: 700;
+ text-decoration: none;
+ color: var(--raisin-black);
+ letter-spacing: .1rem;
 }
 
 .nav-item {
-    margin-bottom: 2rem;
+ margin-bottom: 2rem;
 }
 
 .btn-line {
-    background: var(--cosmic-latte);
-    width: 3rem;
-    height: .3rem;
-    transition: all .5s;
+ background: var(--cosmic-latte);
+ width: 3rem;
+ height: .3rem;
+ transition: all .5s;
 }
 
 .btn-line:not(:last-child) {
-    margin-bottom: .6rem;
+ margin-bottom: .6rem;
 }
 
 .nav-btn {
-    position: fixed;
-    bottom: 5rem;
-    right: 5rem;
-    cursor: pointer;
+ position: fixed;
+ bottom: 5rem;
+ right: 5rem;
+ cursor: pointer;
 }
 
-.checkbox:checked ~ label .btn-line-1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
+.checkbox:checked~label .btn-line-1 {
+ transform: rotate(-45deg) translate(-6px, 7px);
 }
 
-.checkbox:checked ~ label .btn-line-2 {
-    opacity: 0;
+.checkbox:checked~label .btn-line-2 {
+ opacity: 0;
 }
 
-.checkbox:checked ~ label .btn-line-3 {
-    transform: rotate(45deg) translate(-6px, -7px);
+.checkbox:checked~label .btn-line-3 {
+ transform: rotate(45deg) translate(-6px, -7px);
 }
 
-.checkbox:checked ~ label .btn-line {
-    background: var(--raisin-black);
+.checkbox:checked~label .btn-line {
+ background: var(--raisin-black);
 
-}
-
-
-.checkbox:checked ~ .main-nav {
-    /*top: 0;*/
-    opacity: 1;
 }
 
 
-
-
-
-
+.checkbox:checked~.main-nav {
+ /*top: 0;*/
+ opacity: 1;
+}
