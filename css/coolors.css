@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster|Audiowide|Great+Vibes|Comfortaa|Orbitron|Tajawal|Livvic|Fira+Sans|Unica+One|Rajdhani");
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+ --wild-blue: #96ADC8;
+ --tea-green: #D7FFAB;
+ --unmellow-yellow: #FCFF6C;
+ --brown-yellow: #D89D6A;
+ --tuscan-red: #6D454C;
+ --spring-bud: #CACF85;
+ --sea-green: #8CBA80;
+ --des-cyan: #658E9C;
+ --nav-purple: #4D5382;
+ --pinapple: #514663;
+ --mummy-tomb: #808D8E;
+ --old-lavender: #766C7F;
+ --lavender-purple: #947EB0;
+ --blue-bell: #A3A5C3;
+ --pastel-blue: #A9D2D5;
+ --columbis-blue: #C3DFE0;
+ --m-spring-bud: #BCD979;
+ --olivine: #9DAD6F;
+ --deep-taupe: #7D6D61;
+ --wenge: #5E574D;
+ --charlston-green: #2A2B2A;
+ --egg-plant: #5E4955;
+ --mount-pink: #996888;
+ --sapphire-blue: #006BA6;
+ --old-gold: #B8B42D;
+ --olive-drab: #697A21;
+ --cosmic-latte: #FFFCE8 rgba(255, 252, 232, 1);
+ --onyx: #3E363F;
+ --vermillion: #DD403A;
+ --thistle: #D6C3C9;
+ --pale-taupe: #B49082;
+ --chestnut: #98473E;
+ --metal-sunburn: #A37C40;
+ --vivid-tangerine: #FFA987;
+ --linen: #F7EBE8;
+ --carmine-pink: #E54B4B;
+ --raisin-black: #1E1E24 rgba(30, 30, 36, 1);
+ --rifle-green: #444140;
+ --rich-black: #07090F;
+ --lavender-mist: #E3D8F1;
+ --thistle: #DABECA;
+ --old-rose: #BF8B85;
+ --light-taupe: #AD8A64;
+ --black-coral: #5D5F71;
+ --caput-mortuum: #502419;
+ --asparagus: 7EA172;
+ --m-spring-bud: #C7CB85;
+ --pale-gold: #EBBE9B;
+ --champagne: #F6E7CB;
+ --russian-green: #678D58;
+ --laurel-green: #A6C48A;
+ --m-aquamarine: #74D3AE;
+ --honeydew: #F1F7EE;
+ --ash-grey: #B0BEA9;
+ --p-spring-bud: #E0EDC5;
+ --key-lime: #E7F59E;
+ --quartz: #494850;
+ --gunmetal: #2C2C34;
+ --l-pastel-purple: #b18fcf;
+ --p-lavendar: #D8D8F6;
+ --harvest-gold: #E59500;
+ --burgundy: #840032;
+ --gainsboro: #E5DADA;
+ --xanadu: #729B79;
+ --wood-brown: #A89F68;
+ --isabelline: #F3E8EE;
+ --african-violet: #B288C0;
+ --d-lavender: #7E5A9B;
+ --cyber-grape: #63458A;
+ --dark-orchid: #9A48D0;
+ --ube: #8789C0;
+ --turquoise: #45F0DF;
+ --oxford-blue: #111D4A;
+ --dark-puce: #4A2040;
+ --pearly-purple: #9F6BA0;
+ --mid-purple: #C880B7;
+ --classic-rose: #F5CCE8;
+ --black-olive: #393E41;
+ --meat-brown: #E2C044;
+ --wintergreen-dream: #587B7F;
+ --charcoal: #2E4057;
+ --june-bud: #C0D461;
+ --pale-green: #AEF78E;
+ --sea-blue: #05668D;
+ --anti-flash-white: #EBF2FA;
+ --maximum-green: #679436;
+ --limerick: #A5BE00;
+ --waterspout: #A8F9FF;
+ --non-photo-blue: #9AE5E6;
+ --dark-sienna: #32161F;
+ --mellow-apricot: #F0B67F;
+ --sunset-orange: #FE5F55;
+ --cyan-azure: #4F7CAC rgba(79, 124, 172, 1);
+ --dark-gunmetal: #0D1F2D rgba(13, 31, 45, 1);
+ --cadet-grey: #9EA3B0;
+ --pale-pink: #FAE1DF rgba(250, 225, 223, 1);
+ --desert-sand: #E4C3AD;
+ --tuscany: #C49799 rgba(196, 151, 153, 1);
+ --fresh-air: #A5D8FF;
+ --pastel-blue: #AFD0D6;
+ --gray-x11: #BFB6BB;
+ --reg-black: #0B0500;
+ --orange-soda: #FE5E41;
+ --key-lime: #D8F1A0;
+ --green-munsell: #00A878;
+ --jet: #2F2F2F rgba(47, 47, 47, 1);
+ --l-goldenrod-yellow: #F3F9D2;
+
+ --tuscany: #C49799 rgba(196, 151, 153, 1);
+ --tea-rose: #F4CBC6 rgba(244, 203, 198, 1);
+ --vanilla: #F4EEA9 rgba(244, 238, 169, 1);
+ --sunny: #F4F482 rgba(244, 244, 130, 1);
+ --isabelline: #F7EDF0 rgba(247, 237, 240, 1);
+ --great-vibes: 'Great Vibes', cursive;
+ --comfortaa: 'Comfortaa', cursive;
+ --orbitron: 'Orbitron', sans-serif;
+ --audiowide: 'Audiowide', cursive;
+ --rajdhani: 'Rajdhani', sans-serif;
+}
+
+html {
+ font-size: 10px;
+ font-family: var(--rajdhani) sans-serif;
+ box-sizing: border-box;
+}

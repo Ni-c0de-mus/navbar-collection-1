@@ -62,7 +62,7 @@ html {
  z-index: -1;
  /* top: -100vh; */
  opacity: 0;
- transition: opacity .65s;
+ transition: opacity 1s;
 }
 
 .nav-list {
