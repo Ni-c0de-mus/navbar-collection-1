@@ -65,8 +65,7 @@ html {
  position: fixed;
  z-index: -1;
  /* top: -100vh; */
- opacity: 1;
- transition: all 1s;
+ transition: all 650ms;
 }
 
 .nav-list {
@@ -83,6 +82,7 @@ html {
  text-decoration: none;
  color: var(--raisin-black);
  letter-spacing: .1rem;
+
 }
 
 .nav-item {
@@ -133,9 +133,9 @@ html {
  right: 0;
  top: 0;
  bottom: 0;
+ -moz-transform: rotate(1080deg);
 
 }
 
- .checkbox:checked~.nav-list {
-
+ .nav-btn {
  }
